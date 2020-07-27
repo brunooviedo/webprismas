@@ -1,5 +1,5 @@
 <?php
-$serverName = "localhost"; //serverName\instanceName
+$serverName = "localhost"; //nombre del servidor
 $connectionInfo = array( "Database"=>"GT_PrismasDB", "UID"=>"usuario1", "PWD"=>"12345");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 

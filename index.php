@@ -10,7 +10,7 @@
 <h1>Centro de Monitoreo Geotecnico Chuquicamata</h1>
 <Section>
 <?php
-$self = $_SERVER['PHP_SELF']; //Obtenemos la página en la que nos encontramos
+$self = $_SERVER['PHP_SELF']; //Obtenemos la página en la que nos encontramos.
 header("refresh:30; url=$self"); //Refrescamos cada 300 segundos
 
 include_once "conexion.php";
